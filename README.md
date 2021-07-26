@@ -21,7 +21,7 @@ third-party sites.
 
 Ex. For a download category "jaegertracing-plugin" which has a single file
 ```bash
-gh release create jaegertracing-plugin --notes "jaegertracing-plugin" ./jaegertracing-plugin-centos.tar.gz
+gh release create jaegertracing-plugin --title "jaegertracing-plugin" --notes "jaegertracing-plugin" ./jaegertracing-plugin-centos.tar.gz
 ```
 
 The above file would be available for direct downloads from the release page, or an expression like this:
